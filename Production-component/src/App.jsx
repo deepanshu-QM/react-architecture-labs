@@ -1,7 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Button from './components/Button/Button'
+import Todo from './components/Todos/Todos'
 import './App.css'
-
+function App(){
+    return(
+        <>
+        <Button/>
+        <Todo/>
+        </>
+    )
+}
 
 export default App
