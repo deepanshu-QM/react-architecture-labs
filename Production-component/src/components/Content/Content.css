@@ -1,0 +1,21 @@
+/* Covers the full viewport and centers everything */
+.page-wrapper {
+    display: flex;
+    justify-content: center;   /* Horizontal center */
+    align-items: center;       /* Vertical center */
+    min-height: 100vh;         /* Full screen height */
+}
+
+.header-container {
+    width: 1000px;
+    height: 700px;
+    padding: 10px;
+    background-image: url("../../assets/Content/bg-tcc.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: serif;
+    color: black;
+    font-size: 18px;
+    border-radius: 12px;       /* Optional: looks cleaner */
+}
