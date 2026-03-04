@@ -1,8 +1,8 @@
 
-import componentImg from '../../assets/Content/component.png'
-import propsImg from '../../assets/Content/props.png'
-import jsxImg from '../../assets/Content/jsx.png'
-import stateImg from '../../assets/Content/state.png'
+import componentImg from "../../assets/components.png"
+import propsImg from "../../assets/props.png"
+import jsxImg from "../../assets/jsx.png"
+import stateImg from "../../assets/state.png"
 
 
 export const  Core_concept = [

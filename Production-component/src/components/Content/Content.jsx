@@ -1,4 +1,4 @@
-import reactImg from "../../assets/Content/reactjs.jpg";
+import reactImg from "../../assets/ccp.jpg";
 import { Core_concept  } from "./data.jsx";
 import "./Content.css"; 
 
@@ -9,7 +9,7 @@ function getRandomInt(max){
 function CoreConcept({image,title,description}){
   return (
     <li className="core-concept">
-      <img src={image} alt={title}/>
+      <img src={image} alt={title} width={100}/>
       <h2>{title}</h2>
       <p>{description}</p>
     </li>
@@ -28,7 +28,6 @@ function Header() {
             {description} React Concepts you will use for almost any app you are going to build.
           </p>
         </header>
-
         <main>
           <h2>Time to Get Started</h2>
           <ul>
